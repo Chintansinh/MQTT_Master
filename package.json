@@ -1,0 +1,19 @@
+{
+  "name": "mqtt_server",
+  "version": "1.0.0",
+  "description": "MQtt server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js",
+    "dev": "node ./index.js"
+  },
+  "author": "Chintansinh Vadher",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "mqtt": "^4.2.8"
+  }
+}
